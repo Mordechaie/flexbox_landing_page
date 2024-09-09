@@ -4,41 +4,34 @@ body {
     padding: 0; 
 }
 .sec1 {
-    background-color: #1f2937;
     color: #f9faf8;ֿ
-    padding: 0px;
+    background-color: #1f2937; 
+    padding-left: 100px;
+    padding-right: 100px;   
 
 }
 .container1 {
     display: flex;
     width: 100%; 
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     margin: 0px;
-    padding: 0px;    
+    padding: 0px;
+    padding-bottom: 100px;    
 }  
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    
-}
-.logo .top_links {
-   display: flex;
-   align-items: center;
-   gap: 16px;
-   margin: 5px;
-  
-}
+    }
 
+ 
 .top_links {
+    display: flex;
     font-size: 18px;
-    list-style-type: none; 
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    gap: 25px;   
-    margin: 0 ;
-   
+    list-style-type: none;    
+    gap: 16px;   
+    margin: 0px;
+    padding: 0px; 
 
 }
 a {
@@ -51,6 +44,7 @@ a {
     justify-content: space-between;
     align-items: flex-start;
     gap: 50px;
+    padding-bottom: 100px;
 }
 .hero .left-column {
    flex: 1;
