@@ -3,12 +3,11 @@ body {
     margin: 0;
     padding: 0; 
 }
-.sec1 {
-    color: #f9faf8;ֿ
-    background-color: #1f2937; 
-    padding-left: 100px;
-    padding-right: 100px;   
-
+.sec1 {     
+    padding-left: 200px;
+    padding-right: 200px;   
+    color: #f9faf8;
+    background-color: #1f2937;
 }
 .container1 {
     display: flex;
@@ -69,4 +68,7 @@ button {
     border: none;
     width: 100px;
 }
-
+img {
+   width: 300px; 
+   height: 150px;
+}
